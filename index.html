@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Now</title>
+    <script
+      src="https://kit.fontawesome.com/513f91782a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>weather now</h1>
+        <ul>
+          <li class="active"><a href="index.html">current</a></li>
+          <li><a href="search.html">search</a></li>
+          <li>about</li>
+        </ul>
+      </header>
+      <div class="main-body">
+        <div class="left">
+          <div class="temp-cont">
+            <div class="temp">
+              <h1 id="temp">&deg;C</h1>
+              <p id="status"></p>
+            </div>
+          </div>
+          <div class="details-cont">
+            <div class="details">
+              <div class="detail" id="humidity">Humidity</div>
+              <div class="detail" id="wind">Wind</div>
+              <div class="detail" id="latit">Latitude</div>
+              <div class="detail" id="long">Longitude</div>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="svg-cont">
+            <img src="./assets/svg1.svg" alt="" />
+          </div>
+          <div class="location-cont">
+            <div class="location" id="location">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

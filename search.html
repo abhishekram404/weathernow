@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search</title>
+    <script
+      src="https://kit.fontawesome.com/513f91782a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>weather now</h1>
+        <ul>
+          <li><a href="index.html">current</a></li>
+          <li class="active"><a href="search.html">search</a></li>
+          <li>about</li>
+        </ul>
+      </header>
+      <div class="search-body">
+        <div class="search-cont-max">
+          <div class="search-cont-min">
+            <p><i class="fa fa-map-marker" aria-hidden="true"></i></p>
+            <input
+              type="text"
+              placeholder="search new location..."
+              id="searchInput"
+            />
+          </div>
+          <button id="search">
+            <i class="fa fa-search" aria-hidden="true"></i> search
+          </button>
+        </div>
+        <div class="svg-cont">
+          <img src="./assets/svg2.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <script src="search.js"></script>
+  </body>
+</html>
